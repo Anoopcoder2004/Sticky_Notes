@@ -7,10 +7,10 @@ let notes = JSON.parse(localStorage.getItem("notes")) || [];
 // Color palette (like screenshot)
 const colors = [
   "#f28b82", // pink
-  "#fbbc04", // orange
-  "#fff475", // yellow
+  "#6b97ff", // orange
+  "#fb8dff", // yellow
   "#ccff90", // green
-  "#a7ffeb", // teal
+  "#5c92ff", // teal
   "#cbf0f8", // blue
   "#d7aefb"  // purple
 ];
