@@ -57,6 +57,7 @@ function renderNotes() {
 
     const textarea = document.createElement("textarea");
     textarea.value = note.content;
+    textarea.placeholder = "Write your note...";
 
     textarea.addEventListener("input", (e) => {
       note.content = e.target.value;
