@@ -37,13 +37,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-/* for size adjusting */
-.note {
-    resize: both;
-    overflow: auto;
-    min-width: 200px;
-    min-height: 200px;
-}
 
 /* Textarea */
 .note textarea {
